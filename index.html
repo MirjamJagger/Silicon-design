@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Silicon</title>
+  <link rel="icon" type="image/x-icon" href="/images/favi.svg.png">
+</head> 
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar">
+    <div class="navigation container flex">
+      <div class="left-menu flex gap-3">
+        <a href="/">
+          <img src="/images/logo.png" alt="Purple logotype with black text for Silicon." class="light-on"> 
+          <img src="/images/logo-dark.png" alt="Purple logotype with white text for Silicon." class="dark-on"> 
+        </a>
+        <ul>
+          <li>
+            <a href="#" class="features fw-semi-bold fs-14">Features</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-menu flex">
+        <span class="dark-mode fw-semi-bold fs-14">Dark Mode</span>
+          <label class="switch">
+            <input type="checkbox" id="darkmode-switch">
+            <span class="slider"></span>
+          </label>
+        <a href="#" class="btn btn-primary btn-sign-in flex">
+          <img src="/images/icons/signin.svg" alt="Illustration of a human.">
+          <p class="sign-in fs-14 fw-semi-bold">Sign in / up</p>
+        </a>
+        <a href="#" class="burger-menu">
+          <i class="fa fa-bars fs-32"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- herobanner -->
+
+  <main>
+    <section id="hero-banner">
+      <div class="hero-content flex container">
+        <h1 class="fs-34 fw-bolder lh-27">Manage All Your <span class="block">Money in One App</span></h1>
+        <div class="hero-main">
+          <div class="hero-left">
+            <p class="fs-18 lh-18">We offer you a new generation of the mobile banking.<br class="hide-br"> Save, spend & manage money in your pocket.</p>
+              <div class="btn-wrap">
+                  <a href="#" class="store-btn flex">
+                    <img src="/images/appstore-light.svg" alt="Black button with white text for downloads in appstore." class="btn-img light-on">
+                    <img src="/images/appstore-dark.svg" alt="Black button with white text for downloads in appstore." class="btn-img dark-on">
+                  </a>
+                  <a href="#" class="store-btn flex">
+                    <img src="/images/googleplay-light.svg" alt="Black button with white text for downloads at google play."class="btn-img light-on">
+                    <img src="/images/googleplay-dark.svg" alt="Black button with white text for downloads at google play."class="btn-img dark-on">
+                  </a>
+              </div>
+              <div class="discover flex">
+                <a href="#about">
+                  <img src="/images/icons/btn-hero.svg" alt="Round button with arrow pointing down." class="light-on">
+                  <img src="/images/icons/btn-hero-dark.svg" alt="Round button with arrow pointing down." class="dark-on">
+                </a>
+                <p class="fs-14">Discover more</p>
+              </div>
+            </div>
+            <div class="hero-right flex">
+              <img src="/images/herobanner.png" alt="Two mobile phones showing what the app looks like." class="hero-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brand logos -->
+
+    <section class="brand-logos">
+      <div class="container flex gap-1 justify-c-c">
+        <div class="logo-border">
+          <img src="/images/companylogo1.png" alt="Logotype for logo." class="img-logo">
+        </div>
+        <div class="logo-border">
+          <img src="/images/companylogo2.png" alt="Logotype for logo." class="img-logo">
+        </div>
+        <div class="logo-border">
+          <img src="/images/companylogo3.png" alt="Logotype for logo." class="img-logo">
+        </div>
+        <div class="logo-border">
+          <img src="/images/companylogo4.png" alt="Logotype for logo." class="img-logo">
+        </div>
+        <div class="logo-border hide-tablet">
+          <img src="/images/companylogo5.png" alt="Logotype for logo." class="img-logo">
+        </div>
+        <div class="logo-border hide-tablet">
+          <img src="/images/companylogo6.png" alt="Logotype for logo." class="img-logo">
+        </div>
+      </div>
+    </section>
+
+    <!-- app features -->
+
+    <section id="secondary-banner" class="container">
+      <div class="secondary-usp flex">
+        <img src="/images/features.png" alt="Mobile phone with screen showing the app." class="secondary-left-img">
+        <div class="secondary-right">
+          <h2 class="fw-bolder fs-27">App Features</h2>
+          <p class="fs-18 lh-18 mt-118">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+        <ul class="usp-list">
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/easypayments.svg" alt="Illustration of a payment card." class="icon">
+            </div>
+            <div>
+              <h3 class="fs-20 fw-bolder">Easy Payments</h3>
+              <p class="fs-16 lh-16 mt-07">Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </li>
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/datasecurity.svg" alt="Illustration of a security badge." class="icon">
+            </div>
+            <div>
+              <h3 class="fs-20 fw-bolder">Data Security</h3>
+              <p class="fs-16 lh-16 mt-07">Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non.</p>
+            </div>
+          </li>
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/cost.svg" alt="Illustration of a savings graph." class="icon">
+            </div>
+            <div>
+              <h3 class="fs-20 fw-bolder">Cost Statistics</h3>
+              <p class="fs-16 lh-16 mt-07">Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
+            </div>
+          </li>
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/support.svg" alt="Illustration of a chat bubble." class="icon">
+            </div>
+            <div>  
+              <h3 class="fs-20 fw-bolder">Support 24/7</h3>
+              <p class="fs-16 lh-16 mt-07">A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+            </div>
+          </li>
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/regular.svg" alt="Illustration of a wallet." class="icon">
+            </div>
+            <div>
+              <h3 class="fs-20 fw-bolder">Regular Cashback</h3>
+              <p class="fs-16 lh-16 mt-07">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
+            </div>
+          </li>
+          <li class="usp-wrap flex">
+            <div class="icon-wrap flex">
+              <img src="/images/icons/topstandard.svg" alt="Illustration of a smiley face." class="icon">
+            </div>
+            <div>
+              <h3 class="fs-20 fw-bolder">Top Standards</h3>
+              <p class="fs-16 mt-07">Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.</p>
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </section>
+  
+    <!-- how it works -->
+
+    <section id="about" class="info-banner">
+      <div class="container">
+        <h2 class="fs-27 fw-bolder">How Does It Work?</h2>
+        <div class="info-img flex">
+          <div class="mobile-img-container">
+            <img src="/images/mobile1.png" alt="Mobile screen with a screen shot of Silicons website.">
+          </div>
+          <div class="mobile-img-container">
+            <img src="/images/mobile2.png" alt="Mobile screen with a screen shot of Silicons website.">
+          </div>
+          <div class="mobile-img-container">
+            <img src="/images/mobile3.png" alt="Mobile screen with a screen shot of Silicons website.">
+          </div>
+        </div>
+        <div class="inline-grid">
+          <h3 class="fs-22 fw-bolder lh-18">Transfers to people from your contact list</h3>
+          <p class="mt-05 lh-16">Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- desktop content -->
+
+    <section class="desktop-content container flex">
+        <div class="top-wrap flex">
+          <div class="top-left">
+            <h2 class="fs-32 fw-bolder">Make your money <span class="block">transfer simple and clear</span></h2>
+            <ul class="desk-usp mt-2">
+              <li class="flex gap-1"><img src="/images/icons/checkboxblue.svg" alt="Illustration of a blue checkbox." class="checkbox-icon">Banking transactions are free for you</li>
+              <li class="flex gap-1"><img src="/images/icons/checkboxblue.svg" alt="Illustration of a blue checkbox." class="checkbox-icon">No monthly cash commission</li>
+              <li class="flex gap-1"><img src="/images/icons/checkboxblue.svg" alt="Illustration of a blue checkbox." class="checkbox-icon">Manage payments and transactions online</li>
+            </ul>
+            <button class="btn btn-primary flex btn-learn fs-14 mt-25">Learn more <img src="/images/icons/whitearrow.svg" alt="Illustration of a white arrow." class="checkbox-icon"></button>
+          </div>
+          <div class="top-right flex">
+            <img src="/images/sec-graph.png" alt="Mobile phone that shows a screen shot of the app." class="img-balance">
+            <img src="/images/sec-graph-2.png" alt="Mobile phone that shows a screen shot of the app." class="img-contacts">
+          </div>
+        </div>
+        <div class="bottom-wrap flex">
+          <div class="bottom-left flex">
+            <img src="/images/sec-users.png" alt="Screen shot from the app showing contacts." class="img-bottom-contacts">
+            <img src="/images/sec-card.png" alt="A purple payment card" class="img-card">
+          </div>
+          <div class="bottom-right flex">
+            <h2 class="fs-32 fw-bolder">Receive payment from <span class="block">international bank details</span></h2>
+            <div class="flex gap-3">
+              <div class="payment-wrap flex"> 
+                <div class="icon-wrap flex">
+                  <img src="/images/icons/easypayments.svg" alt="Illustartion of a payment card." class="icon">
+                </div>
+                <p class="lh-16">Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+              </div>
+              <div class="payment-wrap flex">
+                <div class="icon-wrap flex">
+                  <img src="/images/icons/regular.svg" alt="Illustartion of a wallet" class="icon">
+                </div>
+                <p class="lh-16">A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.</p>
+              </div>
+            </div>
+            <button class="btn btn-primary flex btn-learn fs-14">Learn more <img src="/images/icons/whitearrow.svg" alt="Illustration of a white arrow." class="checkbox-icon"></button>
+          </div>
+        </div>
+    </section>
+
+    <section class="client-score">
+      <div class="container flex">
+        <h2 class="fw-bolder fs-40 client-left">Clients are <span class="block">Loving Our App</span></h2>
+        <div class="client-right flex">
+          <div class="review-box">
+            <img src="/images/4star.svg" alt="5 stars where four of them are yellow and the 5th is transparent" class="rating-img">
+            <img src="/images/icons/quotes.svg" alt="Illustration of a qutotation mark" class="quote-img">
+            <p class="lh-16 mbl-15">Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis. Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi vitae lectus hac hendrerit. Montes justo turpis sit amet.</p>
+            <div class="flex gap-1">
+            <img src="/images/fannie.png" alt="Woman smiling" class="avatar">
+            <div class="name">
+              <h6 class="fs-16">Fannie Summers</h6>
+              <p class="fs-14">Designer</p>
+            </div>
+            </div>
+          </div>
+          <div class="review-box">
+            <img src="/images/5star.png" alt="5 stars where four of them are yellow and the 5th is transparent" class="rating-img">
+            <img src="/images/icons/quotes.svg" alt="Illustration of a qutotation mark" class="quote-img">
+            <p class="lh-16 mbl-15">Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium dolor tincidunt egestas eget nunc.</p>
+            <div class="flex gap-1">
+            <img src="/images/albert.png" alt="Man smiling" class="avatar">
+            <div class="name">
+              <h6 class="fs-16">Albert Flores</h6>
+              <p class="fs-14">Developer</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq, contact, subscribe-->
+
+    <section class="container flex">
+      <div class="faq-content">
+        <div class="faq-heading flex">
+          <h2 class="fs-24-7 fw-bolder lh-2">Any questions? <br class="hide-br">Check out the FAQs</h2>
+          <p class="fs-18 q-summary mt-118 lh-18">Still have unanswered questions and need to get in touch?</p>
+        </div>
+        <div class="faq-wrap">
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">Is any of my personal information stored in the App?</h3>
+            <div class="blue-arrow">
+              <img src="/images/icons/faq-1.svg" alt="Round blue button with arrow inside." class="pb-1 blue-arrow">
+            </div>
+          </a>
+          <div class="answer">
+            <p class="fs-14 lh-14">Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+            <p class=" fs-14 mt-118 lh-14">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</div>
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">What formats can I download my transaction history in?</h3>
+            <div class="gray-arrow">
+              <img src="/images/icons/faq-2.svg" alt="Round gray button with arrow inside.">
+            </div>
+          </a>
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">Can I schedule future transfers?</h3>
+            <div class="gray-arrow">
+              <img src="/images/icons/faq-2.svg" alt="Round gray button with arrow inside.">
+            </div>
+          </a>
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">When can I use Banking App services?</h3>
+            <div class="gray-arrow">
+              <img src="/images/icons/faq-2.svg" alt="Round gray button with arrow inside.">
+            </div>
+          </a>
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">Can I create my own password that is easy for me to remember?</h3>
+            <div class="gray-arrow">
+              <img src="/images/icons/faq-2.svg" alt="Round gray button with arrow inside.">
+            </div>
+          </a>
+          <a href="#" class="question flex"><h3 class="fs-16 fw-semi-bold lh-13">What happens if I forget or lose my password?</h3>
+            <div class="gray-arrow">
+              <img src="/images/icons/faq-2.svg" alt="Round gray button with arrow inside.">
+            </div>
+          </a>
+        </div>
+        <div class="flex gap-1 contact-box">
+          <div class="desk-contact">
+            <img src="/images/icons/contactphone.svg" alt="Illustration of a blue phone." class="contact-icon">
+            <ul>
+              <li class="mt-1 mb-118">Still have  questions?</li>
+              <li><span class="blue-contact flex fw-semi-bold">Contact us <img src="/images/icons/bluearrow.svg" alt="Illustration of a blue arrow." class="arrow-icon"></span></li>
+            </ul>
+          </div>
+          <div class="desk-contact">
+            <img src="/images/icons/contactmessage.svg" alt="Illustration of a green chat bubble." class="contact-icon">
+            <ul>
+              <li class="mt-1 mb-118">Don't like phone calls?</li>
+              <li><span class="green-contact flex fw-semi-bold">Contact us <img src="/images/icons/greenarrow.svg" alt="Illustration of a green arrow." class="arrow-icon"></span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-contact-wrap flex">
+          <button class="btn btn-primary btn-contact fs-14">Contact us now</button>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+  <!-- subscribe -->
+   
+  <div class="container">
+    <div class="subscribe-box flex">
+      <div class="subscribe-left flex">
+        <img src="/images/sub.png" alt="Illustration of a bell." class="sub-img">
+        <h4 class="fs-21 fw-bolder lh-18 mt-2">Subscribe to our newsletter <span class="hidden-mobile"> to stay <span class="block"> informed about latest updates</span></span></h4>
+      </div>
+      <div class="subscribe-right flex">
+        <div class="input-subscribe flex">
+          <img src="/images/icons/email.svg" alt="Illustration of an envelope." class="sub-icon">
+          <input type="text" class="email fs-16" name="email" id="email" placeholder="Your email">
+        <button class="btn btn-primary btn-subscribe fs-16">Subscribe</button>
+        </div> 
+      </div>     
+    </div>
+  </div>
+    <p class="footer-text">© 2024 Silicon. All rights reserved. Credit MadrasThemes</p>
+  </footer>
+  <script src="darkmode.js" defer></script>
+</body>
+</html>
